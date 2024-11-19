@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <main>
+        <form action="" class="formulario">
+            <h3 class="texto">Aprendendo formulário</h3>
+            <label for="nome" class="texto-campo">Nome</label>
+            <input autocomplete="on" type="text" id="nome">
+            <label autocomplete="on" for="email" class="texto-campo">Email</label>
+            <input type="email" id="email">
+            <label for="senha" class="texto-campo">Senha:</label>
+            <input type="password" id="senha">
+            <label for="comfirma-senha" class="texto-campo">Comfirmar senha:</label>
+            <input type="password" id="comfirma-senha">
+            <fieldset>
+                <legend>Gênero</legend>
+                <label for="m"><input type="radio" name="genero" id="m">Masculino</label>
+                <label for="f"><input type="radio" name="genero" id="f">Feminino</label>
+                <label for="o"><input type="radio" name="genero" id="o">Outro</label>
+            </fieldset>
+            <label for="ocupacao">Ocupação:</label>
+            <select name="prof" id="ocupacao">
+                <option value="1">Estudante</option>
+                <option value="2">Trabalhador</option>
+                <option value="3">Desempregado</option>
+            </select>
+            <button class="btn" type="submit">Imprimir</button>
+        </form>
+        <section class="apresentacao">
+            <h3 id="card-nome">Wagner Felipe Gomes Ferreira</h3>
+            <p id="card-email">wagner@gmail.com</p>
+            <p id="card-senha">123456789</p>
+            <p id="card-genero">Masculino</p>
+            <p id="card-ocupacao">Estudante</p>
+        </section>
+    </main>
+</body>
+
+</html>
